@@ -1,0 +1,42 @@
+//My Color Theme
+$purple-dark:  #9926F0 !default;
+$purple-light: #BB6EF5 !default;
+$pink:         #d122E3 !default;
+
+
+// scss-docs-start gray-color-variables
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$primary: $purple-dark !default;
+$secondary: $pink !default;
+
+//Navbar styles
+$navbar-light-color: $white;
+$navbar-light-hover-color: $gray-500;
+$navbar-light-active-color:         rgba($black, .9) !default;
+
+//Accordion Overrides
+$accordion-icon-color: $primary;
+$accordion-icon-active-color: $secondary;
+
+//Icon size
+$accordion-icon-width: 1.875rem !default;
+
+//Icon to open accordion
+$accordion-button-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='#{$accordion-icon-color}' class='bi bi-plus-circle' viewBox='0 0 16 16'><path d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/><path d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/></svg>");
+
+//Icon to close accordion
+$accordion-button-active-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='#{$accordion-icon-active-color}' class='bi bi-dash-circle' viewBox='0 0 16 16'><path d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/><path d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/></svg>");
+
+// Import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap.scss';

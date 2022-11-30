@@ -1,0 +1,16 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+@use '../components/buttons' as *;
+
+.menu {
+  @include bg-gradient;
+
+  li {
+    padding: 0 0.7rem;
+    a {
+      color: $white !important;
+      font-weight: 600;
+    }
+  }
+
+}
